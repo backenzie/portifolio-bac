@@ -8,7 +8,10 @@ import {
   FaJs,
   FaNode,
   FaReact,
+  FaTrello,
+  FaJira,
 } from "react-icons/fa";
+import { SiAdonisjs } from "react-icons/si";
 
 export const stackData = [
   {
@@ -32,9 +35,11 @@ export const stackData = [
     title: "React",
     img: FaReact,
   },
-  { title: "Next.js", img: TbBrandNextjs },
+  { title: "Adonis.js", img: SiAdonisjs },
   { title: "Docker", img: FaDocker },
   { title: "PostgreSQL", img: SiPostgresql },
   { title: "Git", img: FaGit },
   { title: "Python", img: FaPython },
+  { title: "Jira", img: FaJira },
+  { title: "Trello", img: FaTrello },
 ];

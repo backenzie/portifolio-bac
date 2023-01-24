@@ -29,7 +29,7 @@ import {
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
-  const portfolioUrl = `https://github.com/${userData.githubUser}/my-portfolio`;
+  const portfolioUrl = `https://github.com/${userData.githubUser}/portifolio-bac`;
 
   return (
     <main id="home">
@@ -47,7 +47,7 @@ export const Home = (): JSX.Element => {
               <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+              I{" "}
               <Text as="span" type="heading1" color="brand1">
                 love
               </Text>{" "}
@@ -56,6 +56,14 @@ export const Home = (): JSX.Element => {
                 developing
               </Text>{" "}
               projects
+            </Text>
+            <Text type="body1" color="grey2">
+              My career in the world of technology started about 1 year ago at
+              kenzie academy Brazil, where I participated in 4 large team
+              projects, and more than 30 smaller and individual projects,thanks
+              to the day-to-day simulation of the labor market of large
+              companies, it made me feel ready to work in a team with agile and
+              responsible development.
             </Text>
             <Text type="body1" color="grey2">
               Discover here in this environment, created especially for you, all
